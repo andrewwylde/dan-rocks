@@ -243,6 +243,11 @@ p {
 .main-wrapper .projects-section .item #yt-embed iframe {
   height: 315px;
 }
+@media screen and (max-width: 500px) {
+  .main-wrapper .projects-section .item #yt-embed iframe {
+    width: 30%;
+  }
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
